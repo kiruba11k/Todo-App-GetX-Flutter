@@ -12,7 +12,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Your App Title',
       initialBinding: TaskBinding(),
       home: HomeScreen(),
